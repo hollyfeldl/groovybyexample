@@ -19,7 +19,7 @@ def Main() {
 	}
 
 	// example of a range
-	for ( k in 4..6 ) {
+	for ( def k in 4..6 ) {
 		println k
 	}
 
