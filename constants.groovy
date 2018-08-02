@@ -10,9 +10,9 @@ def Main() {
 
 	println Globals.s
 
-	final int n = 500000000
-	final float f = 3e20 / n
-	final double d = 3e20 / n
+	final Integer n = 500000000
+	final Float f = 3e20 / n
+	final Double d = 3e20 / n
 
 	println "float: ${f}"
 
