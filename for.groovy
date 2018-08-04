@@ -4,7 +4,7 @@
 // while go only has the for loop, groovy has while, for, and for-in
 
 
-def Main() {
+static main() {
 
 	// while loop
 	def i = 1
@@ -41,4 +41,4 @@ def Main() {
 }
 
 // run it 
-Main()
+main()
