@@ -4,13 +4,13 @@
 String a = "initial"
 println a
 
-int b = 1, c = 2
+Integer b = 1, c = 2
 println "${b} ${c}"
 
 Boolean d = true
 println d
 
-int e
+Integer e
 println e
 
 // multiple assignment
