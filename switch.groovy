@@ -18,7 +18,7 @@ static whatAmI( def i ) {
 
 static main() {
 
-	// unlike g
+	// unlike go, groovy switches cascade unless you break them
 	def i = 2
 	print "Write $i as "
 	switch (i) {
