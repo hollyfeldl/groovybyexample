@@ -13,7 +13,7 @@ class Person {
 		this.age = age
 	}
 
-	String Display() {
+	String display() {
 		return "{$name $age}"
 	}
 
@@ -24,7 +24,7 @@ class PersonWO {
 	String 		name
 	Integer 	age
 
-	String Display() {
+	String display() {
 		return "{$name $age}"
 	}
 
@@ -33,17 +33,17 @@ class PersonWO {
 void main() {
 
 	Person p1 = ["Bob", 20]
-	println p1.Display()
+	println p1.display()
 
 	PersonWO p2 = [name: "Alice", age: 30]
-	println p2.Display()
+	println p2.display()
 
 	PersonWO p3 = [name: "Fred"]
-	println p3.Display()
+	println p3.display()
 
 	// Groovy doesn't have pointers
 	PersonWO p4 = [name: "Ann", age: 40]
-	println p4.Display()
+	println p4.display()
 
 	s = new PersonWO(name: "Sean", age: 50)
 
