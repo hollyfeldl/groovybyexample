@@ -30,8 +30,6 @@ class PersonWO {
 
 }
 
-
-
 void main() {
 
 	Person p1 = ["Bob", 20]
