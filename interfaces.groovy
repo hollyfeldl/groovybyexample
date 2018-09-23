@@ -4,7 +4,7 @@
 interface Geometry {
 	Double area()
 	Double perim()
-	String display()
+	String toString()
 }
 
 class Rect implements Geometry {
@@ -19,7 +19,7 @@ class Rect implements Geometry {
 		return (2.0 * width) + (2.0 * height)
 	}
 
-	String display() {
+	String toString() {
 		return "($width $height)"
 	}
 
@@ -36,14 +36,14 @@ class Circle implements Geometry {
 		return 2.0 * Math.PI * radius
 	}
 
-	String display() {
+	String toString() {
 		return "($radius)"
 	}
 
 }
 
 void measure(Geometry g) {
-	println g.display()
+	println g.toString()
 	println g.area()
 	println g.perim()
 }
